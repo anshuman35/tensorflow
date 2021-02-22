@@ -112,5 +112,6 @@ public enum DataType {
     typeCodes.put(Long.class, DataType.INT64);
     typeCodes.put(Boolean.class, DataType.BOOL);
     typeCodes.put(String.class, DataType.STRING);
+      typeCodes.put(String.class);
   }
 }
